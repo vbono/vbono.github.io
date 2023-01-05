@@ -1,0 +1,153 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header right'
+    'middle middle middle middle middle right'
+    'footer footer footer footer footer right';
+    min-height: 100vh;
+    background-color: #383a53;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    grid-area: header; }
+.main {
+    grid-area: middle; }
+.navbar {
+    grid-area: right;
+    min-width: 25vh; }
+.footer {
+    grid-area: footer; }
+
+body {
+    font-family: 'Ortica';
+    margin: auto;
+}
+header {
+    font-family: 'Ortica';
+    margin: auto;
+    margin-left: 50px;
+    color: #e0e1e8;
+
+}
+
+header h1 {
+    text-align: left;
+    font-size: 7em;
+    padding: 0;
+    margin: auto;
+    position: static;
+}
+
+header p {
+    font-size: 1em;
+    padding: 0;
+    margin: auto;
+    padding-left: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: absolute;
+}
+
+#header {
+    background: #383a53;
+    background-image: url("kbd.png");
+    height: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.navbar {
+    background-color: #e0e1e8;
+    text-align: left;
+    padding: 0;
+    padding-top: 35%;
+    padding-bottom: 35%;
+    color: #383a53;
+}
+
+.navbar li {
+    font-size: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:link {
+    color: #383a53; }
+.navbar a:visited {
+    color: #383a53; }
+.navbar a:hover {
+    color: #233f2e; }
+
+main {
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #e0e1e8;
+}
+
+.row {
+    display: flex;
+}
+.welcome {
+    float: left;
+    width: 40%;
+    margin: 100px 50px 50px 100px;
+}
+
+.welcome h2 {
+    font-size: 72px;
+    padding: 0;
+    margin: 0;
+}
+
+.welcome p {
+    padding: 0;
+    margin: 0;
+}
+
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: #383a53;
+    margin: auto;
+    color: white;
+
+}
+
+
+@font-face {
+    font-family: 'orticalight';
+    src: url('ortica-light.woff2') format('woff2'),
+         url('ortica-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mattone';
+    src: url('Mattone-150.woff2') format('woff2'),
+         url('Mattone-150.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+
+*/
