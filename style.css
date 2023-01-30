@@ -100,6 +100,16 @@ main {
     color: #e0e1e8;
 }
 
+main a {
+    text-decoration: none;
+}
+main a:link {
+    color: #e0e1e8; }
+main a:visited {
+    color: #e0e1e8; }
+main a:hover {
+    color: #e0e1e8; }
+
 .row {
     display: flex;
 }
